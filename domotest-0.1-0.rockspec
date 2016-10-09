@@ -1,7 +1,8 @@
 package = 'Domotest'
 version = '0.1-0'
 source = {
-  url = 'https://github.com/NxSoftware/domotest.git'
+  url = 'git://github.com/NxSoftware/domotest.git',
+  tag = 'v0.1-0'
 }
 description = {
   summary = 'A simple testing framework for Domoticz Lua scripts.',

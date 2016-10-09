@@ -15,6 +15,20 @@ Enter Domotest.
 
 ## Installation
 
+## Luarocks (Recommended)
+
+Install the [domotest rock](http://luarocks.org/modules/nxsoftware/domotest):
+
+```
+luarocks install domotest
+```
+
+Require the domotest library in your test `.lua` file(s):
+
+```
+require 'domotest'
+```
+
 ### Manual
 
 Clone the git repository:

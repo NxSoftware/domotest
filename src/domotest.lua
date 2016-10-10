@@ -4,6 +4,7 @@ function domotest(script_name, args)
   local otherdevices_lastupdate = args.otherdevices_lastupdate or {}
   local otherdevices_svalues = args.otherdevices_svalues or {}
   local uservariables = args.uservariables or {}
+  local uservariableschanged = args.uservariableschanged or {}
   local uservariables_lastupdate = args.uservariables_lastupdate or {}
   local timeofday = args.timeofday or {}
   local globalvariables = args.globalvariables or {}
@@ -15,6 +16,7 @@ otherdevices,
 otherdevices_lastupdate,
 otherdevices_svalues,
 uservariables,
+uservariableschanged,
 uservariables_lastupdate,
 timeofday,
 globalvariables= ...
@@ -27,6 +29,7 @@ globalvariables= ...
     otherdevices_lastupdate,
     otherdevices_svalues,
     uservariables,
+    uservariableschanged,
     uservariables_lastupdate,
     timeofday,
     globalvariables
